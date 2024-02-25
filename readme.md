@@ -1,4 +1,4 @@
-### Config
+# Config
 
 ## Instal Fonts using `brew` 
 
