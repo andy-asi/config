@@ -1,0 +1,5 @@
+git:
+  commitPrefixes:
+    RepoName: # This is repository folder name
+      pattern: "^(.+?)\\/(\\w+-\\w+).*"
+      replace: '$1($2): '
