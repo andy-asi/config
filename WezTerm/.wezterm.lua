@@ -5,7 +5,7 @@ local wezterm = require("wezterm")
 local config = wezterm.config_builder()
 
 -- This is where you actually apply your config choices
-config.font_size = 16
+config.font_size = 15.6
 config.color_scheme = "Dracula (Official)"
 config.tab_bar_at_bottom = true
 -- config.use_fancy_tab_bar = false
