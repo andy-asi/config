@@ -67,5 +67,39 @@
       "before": ["j", "k"],
       "after": ["<Esc>"]
     }
+  ],
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "m"],
+      "commands": ["bookmarks.toggle"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["bookmarks.list"]
+    },
+    {
+      "before": ["<leader>", "B"],
+      "commands": ["bookmarks.listFromAllFiles"]
+    },
+    {
+      "before": ["<leader>", "."],
+      "commands": ["bookmarks.jumpToNext"]
+    },
+    {
+      "before": ["<leader>", ","],
+      "commands": ["bookmarks.jumpToPrevious"]
+    },
+    {
+      "before": ["<leader>", "g"],
+      "commands": ["editor.action.goToImplementation"]
+    },
+    {
+      "before": ["<leader>", "r"],
+      "commands": ["editor.action.goToReferences"]
+    },
+    {
+      "before": ["<leader>", "d"],
+      "commands": ["editor.action.revealDefinition"]
+    }
   ]
 }
